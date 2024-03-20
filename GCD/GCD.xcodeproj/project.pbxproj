@@ -10,9 +10,9 @@
 		4869151E2BAADC3600DB173A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869151D2BAADC3600DB173A /* AppDelegate.swift */; };
 		486915202BAADC3600DB173A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869151F2BAADC3600DB173A /* SceneDelegate.swift */; };
 		486915222BAADC3600DB173A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486915212BAADC3600DB173A /* ViewController.swift */; };
-		486915252BAADC3600DB173A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 486915242BAADC3600DB173A /* Base */; };
 		486915272BAADC3800DB173A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486915262BAADC3800DB173A /* Assets.xcassets */; };
 		4869152A2BAADC3800DB173A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 486915292BAADC3800DB173A /* Base */; };
+		486915322BAADC8600DB173A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486915312BAADC8600DB173A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		4869151D2BAADC3600DB173A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4869151F2BAADC3600DB173A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		486915212BAADC3600DB173A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		486915242BAADC3600DB173A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		486915262BAADC3800DB173A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486915292BAADC3800DB173A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4869152B2BAADC3800DB173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486915312BAADC8600DB173A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				4869151D2BAADC3600DB173A /* AppDelegate.swift */,
 				4869151F2BAADC3600DB173A /* SceneDelegate.swift */,
 				486915212BAADC3600DB173A /* ViewController.swift */,
-				486915232BAADC3600DB173A /* Main.storyboard */,
+				486915312BAADC8600DB173A /* SecondViewController.swift */,
 				486915262BAADC3800DB173A /* Assets.xcassets */,
 				486915282BAADC3800DB173A /* LaunchScreen.storyboard */,
 				4869152B2BAADC3800DB173A /* Info.plist */,
@@ -127,7 +127,6 @@
 			files = (
 				486915272BAADC3800DB173A /* Assets.xcassets in Resources */,
 				4869152A2BAADC3800DB173A /* Base in Resources */,
-				486915252BAADC3600DB173A /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				486915322BAADC8600DB173A /* SecondViewController.swift in Sources */,
 				486915222BAADC3600DB173A /* ViewController.swift in Sources */,
 				4869151E2BAADC3600DB173A /* AppDelegate.swift in Sources */,
 				486915202BAADC3600DB173A /* SceneDelegate.swift in Sources */,
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		486915232BAADC3600DB173A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				486915242BAADC3600DB173A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		486915282BAADC3800DB173A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
